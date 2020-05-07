@@ -13,14 +13,14 @@ class TimeBonus():
         self.dy = -4
         self.frame = 0
         self.frame_delay = 2
-        self.frames_max = 80
+        self.frames_max = 60
         self.total_frames = 0
         self.font = font
         self.text = text
         self.text_rect = self.font.get_rect(self.text)
         self.text_rect.left = self.enemy_rect.left
         self.text_rect.top = self.enemy_rect.top
-        self.color = (255, 0, 0)
+        self.color = (140, 140, 140)
 
         level_timer.elapsed_time_ms = max(0, level_timer.elapsed_time_ms - milliseconds)
 

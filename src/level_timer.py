@@ -96,7 +96,7 @@ class LevelTimer():
 
         # copy the time and define some "constants"
         total_ms = self.elapsed_time_ms
-        ms_per_second = 1000
+        ms_per_second = 915
         ms_per_minute = ms_per_second * 60
         ms_per_hundredth_second = 10
 
